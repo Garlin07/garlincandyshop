@@ -38,6 +38,7 @@ body {
 
 .logo {
     height: 60px;
+    margin-right: 10px;
 }
 
 .text {
@@ -50,7 +51,7 @@ body {
 
 .small-container {
     display: flex;
-
+    align-items: center;
 }
 
 .search {
