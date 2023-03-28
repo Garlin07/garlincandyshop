@@ -6,8 +6,9 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh;
 }
+
+/* Navigation */
 
 .navigation-bar {
     width: calc(100% - 80px);
@@ -17,6 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    position: fixed;
 }
 
 .products {
@@ -95,4 +97,14 @@ input:focus-visible {
 
 .log button:first-child {
     margin-right: 5px;
+}
+
+/* Content */
+
+.content {
+    height: 1000px;
+    width: 100%;
+    background-color: red;
+    margin: 0;
+    padding-top: 80px;
 }
